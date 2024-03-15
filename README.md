@@ -1,6 +1,6 @@
 # FitMe360 Virtual Try-On App
 
-Experience a virtual fitting room with the FitMe360 Virtual Try-On App! This application allows users to try on different shirts in real-time using their webcam.
+Experience a virtual fitting room with the FitMe360 Virtual Try-On App! This application allows users to try on different shirts in real time using their webcam.
 
 ## Features
 
@@ -33,7 +33,7 @@ Experience a virtual fitting room with the FitMe360 Virtual Try-On App! This app
 
 ## Requirements
 
-- Python 3.x
+- Python 3.10
 - cvzone 1.5.6
 - mediapipe 0.9.0.1
 - opencv-python 4.5.4.60
@@ -42,3 +42,6 @@ Experience a virtual fitting room with the FitMe360 Virtual Try-On App! This app
 
 - This project utilizes the [cvzone](https://github.com/cvzone/cvzone) library for overlaying images on the webcam feed.
 - Pose detection is powered by [Mediapipe](https://google.github.io/mediapipe/).
+  
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request.
