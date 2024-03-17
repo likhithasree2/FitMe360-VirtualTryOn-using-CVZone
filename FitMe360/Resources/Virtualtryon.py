@@ -75,8 +75,6 @@ def start_camera(gender):
         if key == ord('q'):
             stop_camera()  # Stop camera if 'q' is pressed
 
-
-
 # Create GUI window
 root = tk.Tk()
 root.title("FitMe360")
@@ -105,6 +103,5 @@ start_button.place(relx=0.5, rely=0.5, anchor=tk.CENTER)  # Align the button to 
 
 style = ttk.Style(root)
 style.configure("StartButton.TButton", background="black", foreground="black", font=("Helvetica", 12), padding=10)
-
 
 root.mainloop()
