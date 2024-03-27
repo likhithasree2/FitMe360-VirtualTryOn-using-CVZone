@@ -1,4 +1,4 @@
-# FitMe360 Virtual Try-On App
+# FitMe360 Virtual Try-On Application
 
 Experience a virtual fitting room with the FitMe360 Virtual Try-On App! This application allows users to try on different shirts in real time using their webcam.
 
