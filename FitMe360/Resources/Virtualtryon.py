@@ -36,7 +36,7 @@ def start_camera(gender):
         success, img = cap.read()
         if not success:
             break
-        img = detector.findPose(img)
+        img = detector.findPose(img, draw=False)
         lmList, bboxInfo = detector.findPosition(img, bboxWithHands=False, draw=False)
         if lmList:
             lm11 = lmList[11][1:3]
